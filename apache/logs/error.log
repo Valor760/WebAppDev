@@ -1,0 +1,14 @@
+[Wed Nov 10 09:16:02.895068 2021] [ssl:warn] [pid 2516:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 10 09:16:02.918024 2021] [ssl:warn] [pid 2516:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 10 09:16:02.934979 2021] [mpm_winnt:notice] [pid 2516:tid 600] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.12 configured -- resuming normal operations
+[Wed Nov 10 09:16:02.934979 2021] [mpm_winnt:notice] [pid 2516:tid 600] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Wed Nov 10 09:16:02.934979 2021] [core:notice] [pid 2516:tid 600] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/valor/Desktop/WebDev/Lesson2/apache -f conf\\httpd.conf'
+[Wed Nov 10 09:16:02.935976 2021] [mpm_winnt:notice] [pid 2516:tid 600] AH00418: Parent: Created child process 13824
+Apache server interrupted...
+021] [ssl:warn] [pid 13824:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 10 09:16:03.221225 2021] [ssl:warn] [pid 13824:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 10 09:16:03.235188 2021] [mpm_winnt:notice] [pid 13824:tid 596] AH00354: Child: Starting 150 worker threads.
+[Wed Nov 10 09:25:51.178097 2021] [php:notice] [pid 13824:tid 1856] [client ::1:63274] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_, referer: http://localhost/wp-admin/setup-config.php?step=1
+[Wed Nov 10 09:35:51.884120 2021] [mpm_winnt:notice] [pid 2516:tid 600] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 10 09:35:53.897761 2021] [mpm_winnt:notice] [pid 13824:tid 596] AH00364: Child: All worker threads have exited.
+[Wed Nov 10 09:35:53.943144 2021] [mpm_winnt:notice] [pid 2516:tid 600] AH00430: Parent: Child process 13824 exited successfully.
