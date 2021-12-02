@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #f1f1f1;
+  }
+.square {
+    background-color: #2ecc71;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+.circle {
+    background-color: #2ecc71;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+
+.italian-flag{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.igreen, .iwhite, .ired{
+  width: 150px;
+  height: 300px;
+}
+
+.igreen{
+  background-color: green;
+}
+.iwhite{
+  background-color: white;
+}
+.ired{
+  background-color: red;
+}
+
+.costa-rico-flag{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: 300px;
+  width: 450px;
+}
+
+.cblue{
+  background-color: blue;
+  height: 50px;
+}
+.cwhite{
+  background-color: white;
+  height: 50px;
+}
+.cred{
+  background-color: red;
+  height: 100px;
+}
