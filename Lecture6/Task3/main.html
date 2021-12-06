@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Page 2</title>
+
+        <style>
+            input:required {
+                border-color: red;
+            }
+            textarea{
+                resize: none;
+                transition: 0.3s;
+            }
+            textarea:hover{
+                width: 30vw;
+                height: 15vh;
+            }
+            input[type=submit]:hover {
+                background-color: #3e8e41;
+                color: white;
+            }
+        </style>
+
+    </head>
+    <body>
+        <form>
+            <label for="movietitle">Movie Title</label><br>
+            <input type="text" name="movietitle" id="movietitle" required><br><br>
+
+            <label for="briefdescr">Brief description of a movie</label><br>
+            <textarea name="briefdescr" id="briefdescr" rows="10" cols="50"></textarea><br><br>
+
+            <label for="mainchars">Main characters of a movie</label><br>
+            <textarea name="mainchars" id="mainchars" rows="10" cols="50"></textarea><br><br>
+
+            <label for="actors">Actors played in a movie</label><br>
+            <textarea name="actors" id="actors" rows="10" cols="50"></textarea><br><br>
+
+            <p>Your movie rating:</p>
+            <input type="radio" name="rating" value="5" id="5" required>
+            <label for="5">5</label>
+            <input type="radio" name="rating" value="4" id="4" required>
+            <label for="4">4</label>
+            <input type="radio" name="rating" value="3" id="3" required>
+            <label for="3">3</label>
+            <input type="radio" name="rating" value="2" id="2" required>
+            <label for="2">2</label>
+            <input type="radio" name="rating" value="1" id="1" required>
+            <label for="1">1</label><br><br>
+            
+            <p>Movie genre</p>
+            <input type="checkbox" name="genre" value="Horror" id="Horror">
+            <label for="Horror">Horror</label><br>
+            <input type="checkbox" name="genre" value="Action" id="Action">
+            <label for="Action">Action</label><br>
+            <input type="checkbox" name="genre" value="Comedy" id="Comedy">
+            <label for="Comedy">Comedy</label><br>
+            <input type="checkbox" name="genre" value="Sci-Fi" id="Sci-Fi">
+            <label for="Sci-Fi">Sci-Fi</label><br><br>
+
+            <label for="cover">Upload movie cover</label><br>
+            <input type="file" id="cover" name="cover"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
